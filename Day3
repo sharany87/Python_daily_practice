@@ -1,0 +1,5 @@
+subtract 2 numbers:
+
+a=20
+b=10
+Subtract("a-b)
