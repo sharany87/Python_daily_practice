@@ -1,0 +1,10 @@
+Question: Write a Python program to count the number of digits (0–9) in a given string.
+text = input("Enter a string: ")
+
+count = 0
+
+for ch in text:
+    if ch.isdigit():
+        count += 1
+
+print(count)
