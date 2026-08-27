@@ -1,0 +1,10 @@
+Write a Python program to find the smallest number in a given list without using the min() function.
+numbers = [25, 10, 45, 5, 30]
+
+smallest = numbers[0]
+
+for num in numbers:
+    if num < smallest:
+        smallest = num
+
+print(smallest)
